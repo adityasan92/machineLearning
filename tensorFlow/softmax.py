@@ -9,14 +9,14 @@ print(softmax(scores))
 
 x = np.arange(1,5,1)
 scores = np.vstack([x,np.ones_like(x),0.2 * np.ones_like(x)])
-print(scores)
+print(scores*10)
 print(np.sum(scores, axis=0))
 print(np.sum(x, axis=0))
-import matplotlib.pyplot as plt
-x = np.arange(-2.0,6.0,0.1)
-#print ('x',x)
-scores = np.vstack([x,np.ones_like(x),0.2 * np.ones_like(x)])
-#print(scores)
-
-plt.plot(x,softmax(scores).T,linewidth=2)
-plt.show()
+# import matplotlib.pyplot as plt
+# x = np.arange(-2.0,6.0,0.1)
+# #print ('x',x)
+# scores = np.vstack([x,np.ones_like(x),0.2 * np.ones_like(x)])
+# #print(scores)
+#
+# plt.plot(x,softmax(scores).T,linewidth=2)
+# plt.show()
