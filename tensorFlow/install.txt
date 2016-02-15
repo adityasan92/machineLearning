@@ -1,0 +1,5 @@
+sudo apt-get install python-matplotlib
+sudo pip install numpy
+sudo pip install ipython
+sudo apt-get install python-numpy python-scipy python-matplotlib ipython ipython-notebook python-pandas python-sympy python-nose
+sudo pip install -U scikit-learn
